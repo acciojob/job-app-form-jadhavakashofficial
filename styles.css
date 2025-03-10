@@ -1,2 +1,69 @@
+* {
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.required {
+  color: red;
+  font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="radio"] {
+  margin: 0 5px 0 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 16px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f73;
+}
